@@ -44,7 +44,7 @@
         <Button Grid.Row="2" Grid.Column="3" x:Name="button_multiply" Click="ChangeOperation">*</Button>
         <Button Grid.Row="3" Grid.Column="3" x:Name="button_minus" Click="ChangeOperation">-</Button>
         <Button Grid.Row="4" Grid.Column="3" x:Name="button_plus" Click="ChangeOperation">+</Button>
-        <Button Grid.Row="6" Grid.Column="2" x:Name="button_dot" Click="ChangeOperation">.</Button>
+        <Button Grid.Row="6" Grid.Column="2" x:Name="button_dot" Click="ConvertToDouble">.</Button>
         <Button Grid.Row="6" Grid.Column="3" x:Name="button_equal" Click="Equal">=</Button>
 
         <!--I/O Window-->
